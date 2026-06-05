@@ -11,7 +11,11 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://my-portfolio-git-main-abraham-s-projects10.vercel.app",
+  ],
   credentials: true,
 }));
 app.use(express.json());
