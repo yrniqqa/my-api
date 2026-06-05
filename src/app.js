@@ -15,7 +15,7 @@ app.use(cors({
     "http://localhost:5173",
     "http://localhost:5174",
     "https://my-portfolio-git-main-abraham-s-projects10.vercel.app",
-    "YOUR-MY-ADMIN-URL-HERE.vercel.app",
+    "https://my-admin-five-drab.vercel.app",
   ],
   credentials: true,
 }));
